@@ -1,0 +1,65 @@
+/* Charset */
+@charset "utf-8";
+/* Font Settle */
+@font-face {
+  font-family: "Pfeffer";
+  src: url(./../fonts/Pfeffer.otf);
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./../fonts/Ubuntu.ttf);
+}
+@font-face {
+  font-family: "Viana";
+  src: url(./../fonts/VianaScript.ttf);
+}
+@font-face {
+  font-family: "HoneyBee";
+  src: url(./../fonts/HoneyBee.ttf);
+}
+* {
+  font-family: "Ubuntu";
+}
+/* Basic Card Style */
+.card {
+  box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+  min-width: 35vmin;
+  min-height: 35vmin;
+  display: flex;
+  place-items: center;
+  padding: 3ch;
+  border-radius: 2ch;
+  border: 1px solid hsl(0 0% 83%);
+}
+/* Basic Tile Style */
+.grid {
+  padding: 5px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+
+  margin: 0.5em;
+  min-height: 15em;
+}
+.grid.tile {
+  background-color: initial;
+}
+.container {
+  margin: 0 auto;
+  padding: 5px;
+  width: 90%;
+  column-count: unset;
+  column-gap: unset;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
