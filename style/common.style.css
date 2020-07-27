@@ -67,7 +67,7 @@ a:active {
 /*Basic Sidebar Style*/
 .sidebar {
 }
-narrow-sidebar {
+.sidebar.narrow {
 }
-. {
+.sidebar.wide {
 }
