@@ -1,1 +1,5 @@
 @import url("./common.style.css");
+
+:root {
+  background-image: url(./../img/backs/back.svg);
+}

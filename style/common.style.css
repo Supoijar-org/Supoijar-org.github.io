@@ -51,6 +51,7 @@
   column-count: unset;
   column-gap: unset;
 }
+/* <a> style*/
 a {
   text-decoration: none;
 }
@@ -62,4 +63,11 @@ a:visited,
 a:hover,
 a:active {
   color: inherit;
+}
+/*Basic Sidebar Style*/
+.sidebar {
+}
+narrow-sidebar {
+}
+. {
 }
