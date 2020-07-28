@@ -4,3 +4,9 @@
   background-image: url(./../img/backs/back.svg);
   min-height: 100vh;
 }
+.logo {
+  font-size: 5em;
+}
+.logo img {
+  width: 14em;
+}
