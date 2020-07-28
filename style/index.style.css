@@ -1,12 +1,78 @@
 @import url("./common.style.css");
-
 :root {
+  --g-margin: 1.5em;
+}
+body {
   background-image: url(./../img/backs/back.svg);
+}
+.base-body {
+  box-sizing: border-box;
+  font-size: 1em;
   min-height: 100vh;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+  width: 11em;
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  z-index: 900;
+  text-align: center;
 }
 .logo span {
-  font-size: 5em;
+  font-size: 2em;
 }
 .logo img {
-  width: 1.4em;
+  width: 9em;
+}
+.sidebar.narrow {
+  z-index: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6.5em;
+  height: 100vh;
+  background-color: beige;
+}
+.sidebar .menu {
+  font-size: 1em;
+  position: fixed;
+  left: var(--g-margin);
+  width: calc(6.5em - var(--g-margin) * 2);
+  min-height: 13em;
+  background-color: blueviolet;
+}
+.sidebar .menu.upper {
+  top: 20em;
+}
+.sidebar .menu.downer {
+  bottom: var(--g-margin);
+}
+div {
+  border: 1px solid black;
+}
+.header {
+  position: fixed;
+  background-color: azure;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 8.5em;
+  z-index: 600;
+  padding-left: 11em;
+}
+.main {
+  position: absolute;
+  right: 0px;
+  top: 8.5em;
+  width: calc(100% - 6.5em);
+  min-height: 83vh;
+  margin-right: 0px;
+  margin-left: auto;
+  z-index: 0;
 }
