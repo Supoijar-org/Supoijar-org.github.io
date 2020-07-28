@@ -1,6 +1,6 @@
 @import url("./common.style.css");
 :root {
-  --g-margin: 1.5em;
+  --g-margin: 1.2em;
 }
 body {
   background-image: url(./../img/backs/back.svg);
@@ -8,7 +8,7 @@ body {
 .base-body {
   box-sizing: border-box;
   font-size: 1em;
-  min-height: 100vh;
+  min-height: 200vh;
   width: 100%;
   margin: 0 0 0 0;
 }
@@ -25,6 +25,8 @@ body {
   text-align: center;
 }
 .logo span {
+  position: relative;
+  bottom: 0.68em;
   font-size: 2em;
 }
 .logo img {
@@ -37,24 +39,48 @@ body {
   left: 0;
   width: 6.5em;
   height: 100vh;
-  background-color: beige;
+  background-image: url(./../img/backs/blockchain2.png),
+    linear-gradient(beige, beige);
+  background-position: right, left;
+  background-repeat: repeat-y, no-repeat;
+  background-size: 20%, 80%;
 }
+
 .sidebar .menu {
   font-size: 1em;
   position: fixed;
   left: var(--g-margin);
   width: calc(6.5em - var(--g-margin) * 2);
-  min-height: 13em;
-  background-color: blueviolet;
+  min-height: 10em;
+  background-color: none;
 }
 .sidebar .menu.upper {
-  top: 20em;
+  top: 12.5em;
 }
 .sidebar .menu.downer {
   bottom: var(--g-margin);
 }
-div {
-  border: 1px solid black;
+.sidebar .menu .m-icon {
+  width: 100%;
+  text-align: center;
+  height: 3em;
+}
+.sidebar .menu .m-icon img {
+  width: 60%;
+}
+.sidebar .menu .m-icon span {
+  display: none;
+}
+.sidebar .menu a:hover .m-icon span {
+  position: relative;
+  display: block;
+  top: -1.4em;
+  left: 2.2em;
+  background-color: aliceblue;
+  width: 4em;
+  height: 1.3em;
+  font-size: 1.7em;
+  font-weight: 600;
 }
 .header {
   position: fixed;
@@ -62,9 +88,17 @@ div {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 8.5em;
+  height: 7.4em;
   z-index: 600;
-  padding-left: 11em;
+  padding-left: 13em;
+  padding-top: 0.8em;
+}
+.header span:first-of-type {
+  font-size: 2.75em;
+  font-weight: 580;
+}
+.header span:last-of-type {
+  font-size: 1.85em;
 }
 .main {
   position: absolute;
