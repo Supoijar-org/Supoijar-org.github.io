@@ -41,6 +41,9 @@
   margin: 0.5em;
   min-height: 15em;
 }
+.grid.min {
+  min-height: 0em;
+}
 .grid.tile {
   background-color: initial;
 }
@@ -64,28 +67,164 @@ a:hover,
 a:active {
   color: inherit;
 }
-/*Basic Sidebar Style*/
-.sidebar {
-}
+/*Sidebar Style*/
 .sidebar.narrow {
+  z-index: 700;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6.5em;
+  height: 100vh;
+  background-image: url(./../img/backs/blockchain2.png),
+    linear-gradient(beige, beige);
+  background-position: right, left;
+  background-repeat: repeat-y, no-repeat;
+  background-size: 20%, 80%;
 }
-.sidebar.wide {
-}
+
 .sidebar .menu {
+  font-size: 1em;
+  position: fixed;
+  left: var(--g-margin);
+  width: calc(6.5em - var(--g-margin) * 2);
+  min-height: 10em;
+  background-color: none;
 }
 .sidebar .menu.upper {
+  top: 12.5em;
 }
 .sidebar .menu.downer {
+  bottom: var(--g-margin);
 }
-.sidebar.narrow .menu {
+.sidebar .menu .m-icon {
+  width: 100%;
+  text-align: center;
+  height: 3em;
 }
-.sidebar.narrow .menu.upper {
+.sidebar .menu .balloon .m-icon {
+  text-align: left;
 }
-.sidebar.narrow .menu.downer {
+.sidebar .menu .m-icon img {
+  width: 60%;
 }
-.sidebar.wide .menu {
+.sidebar .menu .balloon .m-icon img {
+  width: 60%;
 }
-.sidebar.wide .menu.upper {
+.sidebar .menu .m-icon span.ll {
+  display: none;
 }
-.sidebar.wide .menu.downer {
+.sidebar .menu a:hover .m-icon span.ll {
+  position: relative;
+  display: block;
+  top: -1.4em;
+  left: 2.2em;
+  background-color: aliceblue;
+  width: 4em;
+  height: 1.3em;
+  font-size: 1.7em;
+  font-weight: 600;
+  z-index: 800;
+}
+.balloon .container {
+  column-count: 3;
+  column-gap: 0;
+}
+/* Header Style*/
+.header {
+  position: fixed;
+  background-color: azure;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 7.4em;
+  z-index: 600;
+  padding-left: 13em;
+  padding-top: 0.8em;
+}
+.header span.tt:first-of-type {
+  font-size: 2.75em;
+  font-weight: 580;
+}
+.header span.tt:first-of-type span:lang(ja) {
+  font-family: serif;
+}
+.header span.tt:last-of-type {
+  font-size: 1.85em;
+  font-family: "Times New Roman";
+}
+/*Body*/
+:root {
+  --g-margin: 1.2em;
+}
+body {
+  background-image: url(./../img/backs/back.svg);
+}
+.base-body {
+  box-sizing: border-box;
+  font-size: 1em;
+  min-height: 200vh;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+/*Logo*/
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1em;
+  width: 11em;
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  z-index: 900;
+  text-align: center;
+  border-bottom-right-radius: 4em 2.5em;
+}
+.logo span {
+  position: relative;
+  bottom: 0.68em;
+  font-size: 2em;
+}
+.logo img {
+  width: 9em;
+}
+/*Main*/
+.main {
+  position: absolute;
+  right: 0px;
+  top: 8.5em;
+  width: calc(100% - 6.5em);
+  min-height: 83vh;
+  margin-right: 0px;
+  margin-left: auto;
+  z-index: 0;
+}
+/*Balloon style*/
+.balloonoya {
+  position: relative; /* 指定した分だけ相対的に移動 */
+}
+.balloon1 {
+  display: none; /* 要素を非表示 */
+}
+.balloon {
+  position: absolute; /* 親要素を基準 */
+  display: block; /* 要素をインラインとして表示 */
+  padding: 2px; /* テキストの前後の余白 */
+  background-color: aliceblue; /* 背景色（透明度） */
+  width: 180px;
+  min-height: 180px; /* 吹き出し全体の幅 */
+  left: 6em; /* 表示位置 */
+  font-size: 80%; /* 文字サイズ */
+  z-index: 1000;
+  bottom: 0em;
+}
+.balloon:after {
+  border-right: 12px solid aliceblue; /* 吹き出し口の幅・色 */
+  border-top: 10px solid transparent; /* 吹き出し口の高さ１／２ */
+  border-bottom: 10px solid transparent; /* 吹き出し口の高さ１／２ */
+  left: -12px; /* 吹き出し口の位置調整 */
+  bottom: 5%; /* 吹き出し口の縦位置 */
+  content: ""; /* コンテンツの挿入 */
+  position: absolute; /* 親要素を基準 */
+  z-index: 1000;
 }
