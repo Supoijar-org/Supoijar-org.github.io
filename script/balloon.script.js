@@ -6,7 +6,7 @@ function showBalloon() {
     wObjballoon.className = "balloon1";
   }
 }
-/*
+
 document.addEventListener(
   "DOMContentLoaded",
   function () {
@@ -22,4 +22,3 @@ document.addEventListener(
   },
   false
 );
-*/
