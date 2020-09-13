@@ -2,39 +2,14 @@
 * {
   font-family: "Ubuntu";
 }
-div.left-index {
-  float: left;
-  width: 20%;
-  height: 285em;
-  background-image: url(./../../backs/blockchain2.png);
-  color: white;
-  text-align: center;
-  padding-top: 15em;
-}
 
-div.left-index .icon-ir {
-  width: 50%;
-  margin: 0 auto;
-}
-div.left-index .icon-ir img {
-  width: 100%;
-}
-div.left-index .title {
-  margin-top: 1em;
-  font-size: 1.5em;
-}
-div.left-index .title span {
-  font-family: "Pfeffer";
-}
-div.left-index .menu {
-}
-div.base {
+div.main {
   width: 80%;
   margin-left: 20%;
   height: 300em;
   background-image: url(./../../backs/back.svg);
 }
-div.base div.content {
+div.main div.content {
   margin: 0 auto;
   width: 80%;
   height: 97%;
@@ -42,10 +17,10 @@ div.base div.content {
   color: black;
   padding-top: 4em;
 }
-div.base div.content div.profile {
+div.main div.content div.profile {
   color: #353d42;
 }
-div.base div.content div.profile div.lefter {
+div.main div.content div.profile div.lefter {
   float: left;
   width: 30%;
   height: 45em;
@@ -53,18 +28,18 @@ div.base div.content div.profile div.lefter {
   margin-right: 1.5em;
   border-right: solid 5px #e19dfc;
 }
-div.base div.content div.profile div.lefter div.g {
+div.main div.content div.profile div.lefter div.g {
   left: calc(34px - 30%);
   position: relative;
   width: 8em;
 }
-div.base div.content div.profile div.lefter div.title {
+div.main div.content div.profile div.lefter div.title {
   position: relative;
   top: 0.62em;
   font-size: 2em;
   left: 2.7em;
 }
-div.base div.content div.profile div.lefter div.icon-tm {
+div.main div.content div.profile div.lefter div.icon-tm {
   width: 50%;
   margin: 0 auto;
   width: 7.8em;
@@ -76,7 +51,7 @@ div.base div.content div.profile div.lefter div.icon-tm {
   left: 4.4em;
   border: solid 5px #e19dfc;
 }
-div.base div.content div.profile div.lefter div.icon-tm img {
+div.main div.content div.profile div.lefter div.icon-tm img {
   width: 100%;
   position: absolute;
   width: 7.8em;
@@ -85,29 +60,29 @@ div.base div.content div.profile div.lefter div.icon-tm img {
   left: 0%;
   margin: auto;
 }
-div.base div.content div.profile div.profs {
+div.main div.content div.profile div.profs {
   padding-left: 1.5em;
 }
-div.base div.content div.profile div.profs span.sub-heading {
+div.main div.content div.profile div.profs span.sub-heading {
   font-size: 1.25em;
   border-bottom: solid 5px #9dfce1;
   line-height: 3em;
 }
-div.base div.content div.profile div.profs div {
+div.main div.content div.profile div.profs div {
   margin-bottom: 1em;
 }
-div.base div.content div.profile div.profs div span.ja {
+div.main div.content div.profile div.profs div span.ja {
   font-size: 2.5em;
 }
-div.base div.content div.profile div.profs div span.en {
+div.main div.content div.profile div.profs div span.en {
   font-family: "Viana";
   font-size: 3.1em;
 }
-div.base div.content div.profile div.profs div div span.date {
+div.main div.content div.profile div.profs div div span.date {
   line-height: 2.25em;
 }
 
-div.base div.content div span.heading {
+div.main div.content div span.heading {
   display: inline-block;
   width: 100%;
   font-family: "HoneyBee";
@@ -115,34 +90,34 @@ div.base div.content div span.heading {
   font-size: 5.3em;
   line-height: 1.8em;
 }
-div.base div.content div span.bel {
+div.main div.content div span.bel {
   font-family: "Ubuntu";
   font-size: 0.43em;
 }
-div.base div.content div {
+div.main div.content div {
   margin-bottom: 4.5em;
 }
-div.base div.content .container {
+div.main div.content .container {
   margin: 0 auto;
   padding: 5px;
   width: 90%;
   column-count: 3;
   column-gap: 0;
 }
-div.base div.content .container2 {
+div.main div.content .container2 {
   margin: 0 auto;
   padding: 5px;
   width: 90%;
   column-count: 2;
   column-gap: 0;
 }
-div.base div.content div.skills .grid {
+div.main div.content div.skills .grid {
   min-height: 20em;
 }
-div.base div.content div.contacts .grid {
+div.main div.content div.contacts .grid {
   min-height: 19em;
 }
-div.base div.content .grid {
+div.main div.content .grid {
   padding: 5px;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -151,28 +126,28 @@ div.base div.content .grid {
   margin: 0.5em;
   min-height: 15em;
 }
-div.base div.content .grid p.imgs {
+div.main div.content .grid p.imgs {
   text-align: center;
 }
-div.base div.content .grid p.imgs span.altnames {
+div.main div.content .grid p.imgs span.altnames {
   font-size: 1.2em;
 }
-div.base div.content .grid p.imgs span.altname {
+div.main div.content .grid p.imgs span.altname {
   font-size: 2em;
 }
-div.base div.content .grid img.lt {
+div.main div.content .grid img.lt {
   width: 88%;
 }
-div.base div.content .grid img.main {
+div.main div.content .grid img.main {
   width: 70%;
 }
-div.base div.content .grid img.sub {
+div.main div.content .grid img.sub {
   width: 50%;
 }
-div.base div.content .grid img.min {
+div.main div.content .grid img.min {
   width: 30%;
 }
-div.base div.content .grid img.st {
+div.main div.content .grid img.st {
   width: 25%;
 }
 div.grid.lev1 {
@@ -251,42 +226,42 @@ div.fotter {
   text-align: center;
   z-index: 30;
 }
-div.base div.content div.title span.theading {
+div.main div.content div.title span.theading {
   font-size: 2em;
   border-bottom: solid 5px #9dfce1;
   text-align: center;
 }
-div.base div.content div.title span.theading span.en {
+div.main div.content div.title span.theading span.en {
   font-family: "Viana";
   font-size: 4em;
 }
-div.base div.content div.title span.theading span.ja {
+div.main div.content div.title span.theading span.ja {
   font-size: 1.65em;
 }
-div.base div.content div.title span.theading span.en span.sub {
+div.main div.content div.title span.theading span.en span.sub {
   font-size: 0.25em;
 }
-div.base div.content div.title span.theading span.ja span.sub {
+div.main div.content div.title span.theading span.ja span.sub {
   font-size: 0.65em;
 }
-div.base div.content div table {
+div.main div.content div table {
   width: 85%;
   border-collapse: collapse;
   border: 2px solid #9dfce1;
 }
 
-div.base div.content div table tr td {
+div.main div.content div table tr td {
   border-collapse: collapse;
   border: 2px solid #9dfce1;
 }
-div.base div.content div.list table tr:first-of-type {
+div.main div.content div.list table tr:first-of-type {
   background-color: aquamarine;
 }
-div.base div.content div table tr td:first-of-type {
+div.main div.content div table tr td:first-of-type {
   width: 3em;
   text-align: center;
 }
-div.base div.content div table tr td:last-of-type {
+div.main div.content div table tr td:last-of-type {
   width: 4em;
   text-align: center;
 }
@@ -295,8 +270,8 @@ div.lgcenter * {
   margin-left: auto;
   margin-right: auto;
 }
-div.base div.content div.title span.theading,
-div.base div.content div.title span.theading * {
+div.main div.content div.title span.theading,
+div.main div.content div.title span.theading * {
   display: block;
   line-height: 1em;
   text-align: center;
