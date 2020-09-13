@@ -1,1 +1,5 @@
 @import url("./common.style.css");
+.card {
+  width: 80%;
+  height: 15em;
+}
