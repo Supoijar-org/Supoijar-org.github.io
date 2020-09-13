@@ -1,6 +1,7 @@
 @import url("./common.style.css");
 .card {
-    width: 82%;
-    height: 29em;
-    background: darkkhaki;
-    margin-left: 7em;
+  width: 82%;
+  height: 29em;
+  background: darkkhaki;
+  margin-left: 7em;
+}

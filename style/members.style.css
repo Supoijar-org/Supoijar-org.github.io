@@ -1,0 +1,303 @@
+@import url("./u-common.style.css");
+* {
+  font-family: "Ubuntu";
+}
+div.left-index {
+  float: left;
+  width: 20%;
+  height: 285em;
+  background-image: url(./../../backs/blockchain2.png);
+  color: white;
+  text-align: center;
+  padding-top: 15em;
+}
+
+div.left-index .icon-ir {
+  width: 50%;
+  margin: 0 auto;
+}
+div.left-index .icon-ir img {
+  width: 100%;
+}
+div.left-index .title {
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+div.left-index .title span {
+  font-family: "Pfeffer";
+}
+div.left-index .menu {
+}
+div.base {
+  width: 80%;
+  margin-left: 20%;
+  height: 300em;
+  background-image: url(./../../backs/back.svg);
+}
+div.base div.content {
+  margin: 0 auto;
+  width: 80%;
+  height: 97%;
+  background-color: rgba(255, 217, 228, 0.7);
+  color: black;
+  padding-top: 4em;
+}
+div.base div.content div.profile {
+  color: #353d42;
+}
+div.base div.content div.profile div.lefter {
+  float: left;
+  width: 30%;
+  height: 45em;
+  padding-right: 1em;
+  margin-right: 1.5em;
+  border-right: solid 5px #e19dfc;
+}
+div.base div.content div.profile div.lefter div.g {
+  left: calc(34px - 30%);
+  position: relative;
+  width: 8em;
+}
+div.base div.content div.profile div.lefter div.title {
+  position: relative;
+  top: 0.62em;
+  font-size: 2em;
+  left: 2.7em;
+}
+div.base div.content div.profile div.lefter div.icon-tm {
+  width: 50%;
+  margin: 0 auto;
+  width: 7.8em;
+  height: 7.8em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  left: 4.4em;
+  border: solid 5px #e19dfc;
+}
+div.base div.content div.profile div.lefter div.icon-tm img {
+  width: 100%;
+  position: absolute;
+  width: 7.8em;
+  top: -90%;
+  bottom: -110%;
+  left: 0%;
+  margin: auto;
+}
+div.base div.content div.profile div.profs {
+  padding-left: 1.5em;
+}
+div.base div.content div.profile div.profs span.sub-heading {
+  font-size: 1.25em;
+  border-bottom: solid 5px #9dfce1;
+  line-height: 3em;
+}
+div.base div.content div.profile div.profs div {
+  margin-bottom: 1em;
+}
+div.base div.content div.profile div.profs div span.ja {
+  font-size: 2.5em;
+}
+div.base div.content div.profile div.profs div span.en {
+  font-family: "Viana";
+  font-size: 3.1em;
+}
+div.base div.content div.profile div.profs div div span.date {
+  line-height: 2.25em;
+}
+
+div.base div.content div span.heading {
+  display: inline-block;
+  width: 100%;
+  font-family: "HoneyBee";
+  text-align: center;
+  font-size: 5.3em;
+  line-height: 1.8em;
+}
+div.base div.content div span.bel {
+  font-family: "Ubuntu";
+  font-size: 0.43em;
+}
+div.base div.content div {
+  margin-bottom: 4.5em;
+}
+div.base div.content .container {
+  margin: 0 auto;
+  padding: 5px;
+  width: 90%;
+  column-count: 3;
+  column-gap: 0;
+}
+div.base div.content .container2 {
+  margin: 0 auto;
+  padding: 5px;
+  width: 90%;
+  column-count: 2;
+  column-gap: 0;
+}
+div.base div.content div.skills .grid {
+  min-height: 20em;
+}
+div.base div.content div.contacts .grid {
+  min-height: 19em;
+}
+div.base div.content .grid {
+  padding: 5px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+
+  margin: 0.5em;
+  min-height: 15em;
+}
+div.base div.content .grid p.imgs {
+  text-align: center;
+}
+div.base div.content .grid p.imgs span.altnames {
+  font-size: 1.2em;
+}
+div.base div.content .grid p.imgs span.altname {
+  font-size: 2em;
+}
+div.base div.content .grid img.lt {
+  width: 88%;
+}
+div.base div.content .grid img.main {
+  width: 70%;
+}
+div.base div.content .grid img.sub {
+  width: 50%;
+}
+div.base div.content .grid img.min {
+  width: 30%;
+}
+div.base div.content .grid img.st {
+  width: 25%;
+}
+div.grid.lev1 {
+  border: ;
+}
+div.grid.lev2 {
+  border: ;
+}
+div.grid.lev3 {
+  border: ;
+}
+div.grid.lev4 {
+  border: ;
+}
+div.grid.lev5 {
+  border: ;
+}
+div.grid.lev1::before {
+  content: "★☆☆☆☆";
+  font-size: 2em;
+}
+div.grid.lev2::before {
+  content: "★★☆☆☆";
+  font-size: 2em;
+}
+div.grid.lev3::before {
+  content: "★★★☆☆";
+  font-size: 2em;
+}
+div.grid.lev4::before {
+  content: "★★★★☆";
+  font-size: 2em;
+}
+div.grid.lev5::before {
+  content: "★★★★★";
+  font-size: 2em;
+}
+a {
+  text-decoration: none;
+}
+a img {
+  border: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+div.grid.tile {
+  background-color: #defcf4;
+}
+div.fotter {
+  width: 100vw;
+  background-color: #353d42;
+  bottom: 0px;
+  height: 30px;
+  position: fixed;
+  z-index: 20;
+}
+.fotter .copyright {
+  position: absolute;
+  top: 5px;
+  left: 90px;
+  color: #f7f7f7;
+  font-size: 0.7em;
+  text-align: center;
+  z-index: 30;
+}
+.fotter .contacts {
+  position: absolute;
+  top: 7px;
+  right: 90px;
+  color: #f7f7f7;
+  font-size: 0.7em;
+  text-align: center;
+  z-index: 30;
+}
+div.base div.content div.title span.theading {
+  font-size: 2em;
+  border-bottom: solid 5px #9dfce1;
+  text-align: center;
+}
+div.base div.content div.title span.theading span.en {
+  font-family: "Viana";
+  font-size: 4em;
+}
+div.base div.content div.title span.theading span.ja {
+  font-size: 1.65em;
+}
+div.base div.content div.title span.theading span.en span.sub {
+  font-size: 0.25em;
+}
+div.base div.content div.title span.theading span.ja span.sub {
+  font-size: 0.65em;
+}
+div.base div.content div table {
+  width: 85%;
+  border-collapse: collapse;
+  border: 2px solid #9dfce1;
+}
+
+div.base div.content div table tr td {
+  border-collapse: collapse;
+  border: 2px solid #9dfce1;
+}
+div.base div.content div.list table tr:first-of-type {
+  background-color: aquamarine;
+}
+div.base div.content div table tr td:first-of-type {
+  width: 3em;
+  text-align: center;
+}
+div.base div.content div table tr td:last-of-type {
+  width: 4em;
+  text-align: center;
+}
+
+div.lgcenter * {
+  margin-left: auto;
+  margin-right: auto;
+}
+div.base div.content div.title span.theading,
+div.base div.content div.title span.theading * {
+  display: block;
+  line-height: 1em;
+  text-align: center;
+}
