@@ -17,6 +17,8 @@
   font-family: "HoneyBee";
   src: url(./../fonts/HoneyBee.ttf);
 }
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:wght@800|Vollkorn:400,700&display=swap&subset=latin-ext");
+/*font-family: "Vollkorn",serif;*/
 * {
   font-family: "Ubuntu";
 }

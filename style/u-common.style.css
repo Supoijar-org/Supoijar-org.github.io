@@ -1,1 +1,26 @@
 @import url("./common.style.css");
+.header {
+  position: fixed;
+  background-color: azure;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3.4em;
+  z-index: 600;
+  padding-left: 13em;
+  padding-top: 0.8em;
+}
+
+.header span.tt:first-of-type span:lang(ja) {
+  font-family: none;
+}
+.header span.tt:last-of-type {
+  font-size: initial;
+  font-family: none;
+}
+
+.header span.tt:first-of-type {
+  font-size: 2.15em;
+  font-weight: 580;
+  font-family: "Ubuntu";
+}

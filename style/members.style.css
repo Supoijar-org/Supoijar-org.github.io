@@ -4,7 +4,6 @@
 }
 
 div.main {
-  width: 80%;
   margin-left: 20%;
   height: 300em;
   background-image: url(./../../backs/back.svg);
@@ -70,6 +69,11 @@ div.main div.content div.profile div.profs span.sub-heading {
 }
 div.main div.content div.profile div.profs div {
   margin-bottom: 1em;
+}
+div.main div.content div.profile div.profs p {
+  columns: 2;
+  column-rule: 1px solid #cdcdcd;
+  column-gap: 2em;
 }
 div.main div.content div.profile div.profs div span.ja {
   font-size: 2.5em;
