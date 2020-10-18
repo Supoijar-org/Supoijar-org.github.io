@@ -115,13 +115,13 @@ div.main div.content .container2 {
   column-count: 2;
   column-gap: 0;
 }
-div.main div.content div.skills .grid {
+div.main div.content div.skills .container .grid {
   min-height: 20em;
 }
-div.main div.content div.contacts .grid {
+div.main div.content div.contacts .container .grid {
   min-height: 19em;
 }
-div.main div.content .grid {
+div.main div.content .container .grid {
   padding: 5px;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
@@ -130,62 +130,62 @@ div.main div.content .grid {
   margin: 0.5em;
   min-height: 15em;
 }
-div.main div.content .grid p.imgs {
+div.main div.content .container .grid p.imgs {
   text-align: center;
 }
-div.main div.content .grid p.imgs span.altnames {
+div.main div.content .container .grid p.imgs span.altnames {
   font-size: 1.2em;
 }
-div.main div.content .grid p.imgs span.altname {
+div.main div.content .container .grid p.imgs span.altname {
   font-size: 2em;
 }
-div.main div.content .grid img.lt {
+div.main div.content .container .grid img.lt {
   width: 88%;
 }
-div.main div.content .grid img.main {
+div.main div.content .container .grid img.main {
   width: 70%;
 }
-div.main div.content .grid img.sub {
+div.main div.content .container .grid img.sub {
   width: 50%;
 }
-div.main div.content .grid img.min {
+div.main div.content .container .grid img.min {
   width: 30%;
 }
-div.main div.content .grid img.st {
+div.main div.content .container .grid img.st {
   width: 25%;
 }
-div.grid.lev1 {
+div.container .grid.lev1 {
   border: ;
 }
-div.grid.lev2 {
+div.container .grid.lev2 {
   border: ;
 }
-div.grid.lev3 {
+div.container .grid.lev3 {
   border: ;
 }
-div.grid.lev4 {
+div.container .grid.lev4 {
   border: ;
 }
-div.grid.lev5 {
+div.container .grid.lev5 {
   border: ;
 }
-div.grid.lev1::before {
+div.container .grid.lev1::before {
   content: "★☆☆☆☆";
   font-size: 2em;
 }
-div.grid.lev2::before {
+div.container .grid.lev2::before {
   content: "★★☆☆☆";
   font-size: 2em;
 }
-div.grid.lev3::before {
+div.container .grid.lev3::before {
   content: "★★★☆☆";
   font-size: 2em;
 }
-div.grid.lev4::before {
+div.container .grid.lev4::before {
   content: "★★★★☆";
   font-size: 2em;
 }
-div.grid.lev5::before {
+div.container .grid.lev5::before {
   content: "★★★★★";
   font-size: 2em;
 }
@@ -201,7 +201,7 @@ a:hover,
 a:active {
   color: inherit;
 }
-div.grid.tile {
+div.container .grid.tile {
   background-color: #defcf4;
 }
 div.fotter {
