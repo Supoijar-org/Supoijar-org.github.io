@@ -6,7 +6,7 @@
 div.main {
   margin-left: 20%;
   height: 300em;
-  background-image: url(./../../backs/back.svg);
+  background-image: url(./../../img/backs/back.svg);
 }
 div.main div.content {
   margin: 0 auto;
