@@ -155,19 +155,19 @@ div.main div.content .container .grid img.st {
   width: 25%;
 }
 div.container .grid.lev1 {
-  border: ;
+  border: none;
 }
 div.container .grid.lev2 {
-  border: ;
+  border: none;
 }
 div.container .grid.lev3 {
-  border: ;
+  border: none;
 }
 div.container .grid.lev4 {
-  border: ;
+  border: none;
 }
 div.container .grid.lev5 {
-  border: ;
+  border: none;
 }
 div.container .grid.lev1::before {
   content: "★☆☆☆☆";
