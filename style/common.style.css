@@ -232,7 +232,7 @@ body {
   z-index: 1000;
 }
 .area {
-  width: 100%;
+  width: inherit;
   margin: auto;
   flex-wrap: wrap;
   display: flex;
