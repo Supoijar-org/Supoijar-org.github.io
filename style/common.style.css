@@ -232,8 +232,8 @@ body {
   z-index: 1000;
 }
 .area {
-  width: inherit;
-  margin: auto;
+  width: 80vw;
+  margin: 0;
   flex-wrap: wrap;
   display: flex;
 }
