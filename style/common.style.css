@@ -192,7 +192,7 @@ body {
 }
 /*Main*/
 .main {
-  position: absolute;
+  position: relative;
   right: 0px;
   top: 8.5em;
   width: calc(100% - 6.5em);
