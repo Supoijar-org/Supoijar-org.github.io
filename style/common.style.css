@@ -291,12 +291,32 @@ input:checked + .tab_class {
   background-color: cadetblue;
   color: aliceblue;
 }
- 
+input:checked + .tab_class4 {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+input:checked + .tab_class3 {
+  background-color: cadetblue;
+  color: aliceblue;
+}
+input:checked + .tab_class2 {
+  background-color: cadetblue;
+  color: aliceblue;
+}
 .content_class {
   display: none;
   width: 100%;
 }
  
 input:checked + .tab_class + .content_class {
+  display: block;
+}
+input:checked + .tab_class + .content_class4 {
+  display: block;
+}
+input:checked + .tab_class + .content_class3 {
+  display: block;
+}
+input:checked + .tab_class + .content_class2 {
   display: block;
 }
