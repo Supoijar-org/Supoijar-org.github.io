@@ -249,6 +249,39 @@ body {
   float: left;
   order: -1;
 }
+.tab_class4 {
+  width: calc(100%/4);
+  height: 50px;
+  background-color: darkgrey;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  float: left;
+  order: -1;
+}
+.tab_class3 {
+  width: calc(100%/3);
+  height: 50px;
+  background-color: darkgrey;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  float: left;
+  order: -1;
+}
+.tab_class2 {
+  width: calc(100%/2);
+  height: 50px;
+  background-color: darkgrey;
+  line-height: 50px;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+  float: left;
+  order: -1;
+}
  
 input[name="tab_name"] {
   display: none;
