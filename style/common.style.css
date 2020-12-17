@@ -232,8 +232,8 @@ body {
   z-index: 1000;
 }
 .area {
-  width: 80vw;
-  margin: 0;
+  width: 65vw;
+  margin: auto;
   flex-wrap: wrap;
   display: flex;
 }
