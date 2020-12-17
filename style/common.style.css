@@ -311,12 +311,12 @@ input:checked + .tab_class2 {
 input:checked + .tab_class + .content_class {
   display: block;
 }
-input:checked + .tab_class + .content_class4 {
+input:checked + .tab_class4 + .content_class {
   display: block;
 }
-input:checked + .tab_class + .content_class3 {
+input:checked + .tab_class3 + .content_class {
   display: block;
 }
-input:checked + .tab_class + .content_class2 {
+input:checked + .tab_class2 + .content_class {
   display: block;
 }
